@@ -1,0 +1,28 @@
+<?php
+
+                  if(isset($_SESSION['login_user']))
+                  {?>
+                    <nav>
+                  <div class="topnav" id="myTopnav">
+                        <a style="color:white;"href="logout.php"><span class="glyphicon glyphicon-log-in"onclick="return confirm('Alis Ka Na Boi?')"></span> LOGOUT</script></a>      
+                        <a style="color:white;"href="studentbook.php">MYBOOKS</a>
+                        <a style="color:white;"href="books.php">BOOKS</a>
+                        <a style="color:white;"href="feedback.php">FEEDBACK</a>
+                        <a href="javascript:void(0);" class="icon" onclick="hamborger()">
+                        <i class="fa fa-bars"></i></a></div>    
+</nav><?php         
+                  }
+                  else
+                  {
+?>
+<nav>
+                  <div class="topnav" id="myTopnav">
+                        <a style="color:white;"href="studentlogin.php"><span class="glyphicon glyphicon-log-in"></span> LOGIN</a>
+                        <a style="color:white;"href="register.php"><span class="glyphicon glyphicon-user"></span> REGISTER</a>          
+                        <a style="color:white;"href="books.php">BOOKS</a>
+                        <a style="color:white;"href="feedback.php">FEEDBACK</a>
+                        <a href="javascript:void(0);" class="icon" onclick="hamborger()">
+                        <i class="fa fa-bars"></i></a></div>
+</nav><?php
+                  }         
+?>

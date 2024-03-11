@@ -1,0 +1,449 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+/*--------------------------------------------------------------MAINCODE--------------------------------------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------HOME------------------------------------------------------------------------------------*/
+section
+{
+    height:100%;
+}
+
+section .sec_img
+{
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.wrapper
+{
+    margin-right:auto;
+    margin-left: auto;
+    height: 619px;
+    max-width: 100%;
+    /* background-color:cyan; */
+    background-color:cyan; 
+
+}
+
+footer
+{
+    position: bottom;
+    height: 50px;
+    width: 100%;
+    background-color: darkslategray;
+}
+
+
+li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+header
+{
+    height:110px;
+    width: 100%;
+    background-color: darkslategray;
+}
+nav
+{
+    float: right;
+    word-spacing: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: -10px;
+
+}
+nav li
+{
+    display: inline-block;
+    line-height: 60px;
+}
+
+.sec_img .box0
+{
+    height: 300px;
+    width: 400px;
+    background-color: rgba(22, 61, 56, 0.5);
+    margin: 20px auto;
+    color: white
+}
+nav
+{
+    float: right;
+    word-spacing: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: -10px;
+
+}
+nav li
+{
+    display: inline-block;
+    line-height: 60px;
+}
+.logo
+{
+    float: left;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100px;
+    height: 90px;
+    object-fit: none;
+    object-position: 50% 30%;
+    
+}
+
+.navbar-header{
+    width: 350px;
+  }
+
+/*----------------------------------------------------------------HOME------------------------------------------------------------------------------------*/
+
+
+
+
+
+/*----------------------------------------------------------------LOGIN------------------------------------------------------------------------------------*/
+
+section
+{
+margin-top: -20px;
+}
+
+.alert
+{
+margin-top: -650px;
+background-color: rgba(254,169,169,0.6);
+color: darkred;
+}
+
+.chk
+{
+position: relative;
+top:-25px;
+margin: -20px;
+}
+
+nav .col-xl-9{
+float:right;
+}
+
+section .stlogin_img
+{   
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    background-image: url("images/stlogin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.stlogin_img .box1
+{
+    height: 370px;
+    width: 280px;
+    background-color: rgba(26, 94, 85, 0.5);
+    margin: 20px auto;
+    color: white;
+    padding-top: 10px;
+}
+
+input 
+{
+    height: 25px;
+    width: 200px;
+    background-color: rgba(187, 187, 187, 0.3);
+}
+
+/*----------------------------------------------------------------LOGIN------------------------------------------------------------------------------------*/
+
+
+
+
+
+/*----------------------------------------------------------------BOOKS------------------------------------------------------------------------------------*/
+
+
+section .books_img
+{
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    background-image: url("images/books.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.table.form-control
+{
+    width: 700px;
+    height: 500px;
+    margin-top: -10px;
+    background-color: rgba(255,255,255,0.7);
+    color: black;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+}
+
+.table-bordered
+{
+    border: 2px solid;
+}
+
+.search-bar
+{
+    float:right;
+    padding: 10px;
+    width: 300px;
+    height: 90px;
+    background-color: rgba(0,0,0,0);
+}
+
+.alert{
+float: center;
+}
+
+
+/*----------------------------------------------------------------BOOKS------------------------------------------------------------------------------------*/
+
+
+
+
+
+/*----------------------------------------------------------------REGISTER------------------------------------------------------------------------------------*/
+
+
+section .stlogin_img
+{
+    height:100%;
+    width:100%;
+    margin-top: 0px;
+    background-image: url("images/stlogin.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.chk
+{
+position: relative;
+top:-25px;
+margin: -20px;
+
+}
+.reg
+{
+position: relative;
+top:-40px;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.stlogin_img .box2
+{
+    height: 530px;
+    width: 280px;
+    background-color: rgba(26, 94, 85, 0.5);
+    margin:  auto;
+    color: white;
+    padding-top: 1px;
+}
+
+::placeholder
+{
+    color: white;
+    opacity: 0.7;
+}
+
+/*----------------------------------------------------------------REGISTER------------------------------------------------------------------------------------*/
+
+
+
+
+
+/*----------------------------------------------------------------SAVE------------------------------------------------------------------------------------*/
+
+
+section .fb_img
+{
+    height:100%;
+    width:100%;
+    margin-top: 0px;
+    background-image: url("images/feedback.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 0%;
+}
+
+.fb_img .box
+{
+    max-height: 600px;
+    max-width: 800px;
+    background-color: rgba(22, 61, 56, 0.5);
+    margin: 20px auto;
+    color: white
+}
+.fb_img .form-control
+{
+
+height: 80px;
+width: 100%;
+max-width: 750px;
+}
+
+.table-fb
+{
+text-align: left;
+max-height:280px;
+overflow-y:scroll;
+display: block;
+width: 100%;
+}
+
+nav .col-xl-9{
+    float: right;
+}
+.table-fb
+{
+text-align: left;
+max-height:280px;
+overflow-y:scroll;
+display: block;
+width: 750px;
+}
+
+/*----------------------------------------------------------------SAVE------------------------------------------------------------------------------------*/
+
+
+
+
+
+/*----------------------------------------------------------------PROFILE------------------------------------------------------------------------------------*/
+
+
+.sec_img .box3
+{
+    height: 470px;
+    width: 280px;
+    background-color: rgba(26, 94, 85, 0.5);
+    margin: 20px auto;
+    color: white;
+    padding-top: 10px;
+}
+
+
+/*----------------------------------------------------------------PROFILE------------------------------------------------------------------------------------*/
